@@ -1,4 +1,3 @@
-
 a = 457643
 print("given number = ",a)
 n = a // 10000
