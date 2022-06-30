@@ -14,10 +14,10 @@ def create():
             gh = input("1. enter more\n 2.exist\n 3.enter your choice")
             if gh == "2":
                 break
-# def display():
-#     with open("details.csv","r") as obj:
-#         fobj = csv.reader(obj)
-#         for j in fobj:
-#             print(j)
+def display():
+    with open("details.csv","r") as obj:
+        fobj = csv.reader(obj)
+        for j in fobj:
+            print(j)
 create()
 display()
