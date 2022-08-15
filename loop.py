@@ -431,3 +431,21 @@ n = (input("enter the charecter: "))
 if n == "a":
     d = a[1:]
     print(d)
+
+
+# prime numbers use only one loop 
+num=2
+b=1
+count=0
+num1=int(input("enter your number :"))
+while num<=num1:
+    if num%b==0:
+        count+=1
+    if b>num:
+        if count==2:
+            print(num)
+        num+=1
+        b=1
+        count=0
+    else:
+        b+=1
