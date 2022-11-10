@@ -1,38 +1,38 @@
-# plythin sets.
+plythin sets.
 
-# myset = {"apple", "banana", "cherry"}
-# print(myset)
+myset = {"apple", "banana", "cherry"}
+print(myset)
 
-# thisset = {"apple", "banana", "cherry", "apple"}
-# print(thisset)
+thisset = {"apple", "banana", "cherry", "apple"}
+print(thisset)
 
-# python access set items.
+python access set items.
 
-# thisset = {"apple", "banana", "cherry"}
-# for x in thisset:
-#   print(x)    
+thisset = {"apple", "banana", "cherry"}
+for x in thisset:
+  print(x)    
   
-# Check if "banana" is present in the set:
+Check if "banana" is present in the set:
 
-# thisset = {"apple", "banana", "cherry"}
-# print("banana" in thisset)
+thisset = {"apple", "banana", "cherry"}
+print("banana" in thisset)
 
-# add set items.
-# thisset = {"apple","banana","cherry"}
-# thisset.add("orange")
-# print(thisset)
+add set items.
+thisset = {"apple","banana","cherry"}
+thisset.add("orange")
+print(thisset)
 
-# add sets
+add sets
 
-# thisset = {"apple", "banana", "cherry"}
-# tropical = {"pineapple", "mango", "papaya"}
-# thisset.update(tropical)
-# print(thisset)
+thisset = {"apple", "banana", "cherry"}
+tropical = {"pineapple", "mango", "papaya"}
+thisset.update(tropical)
+print(thisset)
 
 
-# thisset = {"apple", "banana", "cherry"}
-# mylist = ["kiwi", "orange"]
-# thisset.update(mylist)
+thisset = {"apple", "banana", "cherry"}
+mylist = ["kiwi", "orange"]
+thisset.update(mylist)
 # print(thisset)
 
 # remove set item.
